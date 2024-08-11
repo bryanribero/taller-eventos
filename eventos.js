@@ -6,3 +6,10 @@ document.addEventListener("DOMContentLoaded", function(){
         alert('Hola! Soy el div');
     });
 });
+
+function boton(event){
+
+    alert('Hola!');
+    event.stopPropagation();
+
+}
